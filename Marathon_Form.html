@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Marathon_Form</title>
+</head>
+
+<body>
+    <h1>Race Registration!</h1>
+    <form action="/Marathon">
+        <div>
+            <label for="Name">First Name</label>
+            <input id="Name" type="text" name="q">
+            <label for="Name">Last Name</label>
+            <input id="Name" type="text" name="q">
+        </div>
+        <p>Select a Race</p>
+        <!-- <p>
+            <label for="Race"></label>
+        <p> -->
+        <div>
+            <input id="q" type="radio" name="race">
+            <label for="q">First Run 5k</label>
+        </div>
+        <div>
+            <input id="q" type="radio" name="race">
+            <label for="q">Half Marathon</label>
+        </div>
+        <div>
+            <input id="q" type="radio" name="race">
+            <label for="q">Full Marathon</label>
+        </div>
+        <div>
+            <label for="Email">Email</label>
+            <input id="Email" type="email" name="q" required>
+            <label for="Password">Password</label>
+            <input id="Password" type="password" name="q" required>
+        </div>
+        <div>
+            <label for="Group">Select Age Group</label>
+            <select name="Group" id="Group">
+                <option value="under 18">under 18</option>
+                <option value="18-30">18-30</option>
+                <option value="30-50">30-50</option>
+                <option value="50+">50+</option>
+            </select>
+
+        </div>
+        <Button>Register!</Button>
+
+
+    </form>
+</body>
+
+</html>
